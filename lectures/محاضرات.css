@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background: #000 !important;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.lect{
+    text-align: center;
+    padding: 50px;
+}
+.row{
+    
+}

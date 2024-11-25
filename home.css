@@ -1,0 +1,126 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:black;
+}
+
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background: #000 !important;
+}
+
+.logo img {
+    width: 60px;
+}
+
+/*  */
+
+.card {
+    box-shadow: 5px 5px 10px black;
+}
+
+.card:hover{
+    box-shadow: 100px 50px 100px 50px;
+    background-size: 500px;
+    transform: scale(1.2);
+}
+
+ul li a.active::after,
+ul li a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: aqua;
+    margin-top: 2px;
+    transition: width .5s;
+    -webkit-transition: width .5s;
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+}
+
+
+ul li a.active::after {
+    width: 100%;
+}
+
+ul li a::after {
+    width: 0;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+#login{
+    margin-left: 100px;
+    
+}
+
+/*               body            */
+
+.img1 img{
+    width: 300px;
+    
+}
+
+.col{
+    padding-top: 50px;
+}
+
+.ro {
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* fffffffffffffffffffff? */
+
+/* .d1:hover {
+    background-image: url(../img/p1.jpg);
+    background-size: cover;
+}
+
+.im {
+    width: 300px;
+    margin: 20px;
+
+}
+
+.im:hover {
+    transform: scale(1.2);
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+    clear: both;
+    margin-top: 50px;
+} */

@@ -1,0 +1,61 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.bg-dark.scrolled {
+    background: #000 !important;
+}
+
+.logo img {
+    width: 70px;
+}
+
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.h{
+    text-align: center;
+    padding: 30px;
+}
+.container img{
+    /* padding: 1px; */
+    /* margin:10px; */
+    /* box-shadow:10px 10px 10px; */
+    width: 400px;
+    /* border: ridge 15px wheat; */
+    /* box-sizing: content-box; */
+    /* border-radius: 90px 100px 150px 160px; */
+}
+.vi{
+    margin: auto;
+    width: 100%;
+    
+    padding: 20px;
+}
+.card{
+    width: 400px;
+}
